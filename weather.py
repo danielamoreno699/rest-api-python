@@ -12,6 +12,7 @@ def get_weather(city, api_key='d3b5c8aad9b2c60db20bf20d3263fbfa'):
          url = f'https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric'
          r = requests.get(url)
          content = r.json()
+         #return content
          weather = content['list']
 
          for forecast in weather:
