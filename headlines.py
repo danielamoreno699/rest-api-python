@@ -1,6 +1,4 @@
 
-# -*- coding: utf-8 -*-
-
 import requests
 
 def get_news(country, api_key='bd360e94249945b69f6a1e22c16a50cb'):
@@ -15,7 +13,3 @@ def get_news(country, api_key='bd360e94249945b69f6a1e22c16a50cb'):
 
 
 print(get_news(country='us'))
-
-# -*- coding: utf-8 -*-
-
-# -*- coding: utf-8 -*-
